@@ -1,0 +1,157 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.0.81"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                 Id="2f808af1-c291-4467-9dcd-ed5ce78b3cfd">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="1eac6411-5a40-413c-8c37-5d0135c8d809">
+            <Content.Layers>
+                <Layer Id="0e62d52a-b21e-4498-aa59-677a7276f3c3" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="cb71bf52-f3c1-4cb0-90cb-8ce4daeea146" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="c54569a0-05e8-4c2f-8ede-7207c4f6237f" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="46230ba0-da11-4f77-95c2-8e061e2e6cea" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/17/2018 21:22:33" Id="c2e6f55b-3827-4425-88b9-621e63eb28f9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3ff12b1f-529e-418c-b718-0a2fdd59ed23">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:Header Text="Habit Wolf" FontSize="16" FontFamily="Open Sans" Id="5a9fed14-202c-4fe1-b771-3d837367ef11" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:Title RichText="What habit you need to get rid of " FontFamily="Open Sans" Id="ad16ebb3-772b-498c-a5dd-5315d26dfdfb" Panel.Bounds="45,65,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:Label RichText="Concentrate on one habit only at a time" FontSize="11" FontFamily="Open Sans" Id="f2adf49d-6953-4384-8622-2a722af75eb6" Panel.Bounds="85,101,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:SearchBar WatermarkText="Search by habit..." FontFamily="Open Sans" Id="39906c52-d7f2-4d6c-9819-d27843aacf47" Panel.Bounds="50,128,285{105,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="27eaa2ab-a3c8-42c7-af67-2504d37ed118" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="3231e3fe-00f1-4ad9-bd25-a92113b1a8fe" Panel.Bounds="16,197,0*,0*">
+                                    <Group.Children>
+                                        <Ellipse Color="#FF4281D0" Id="34b5a71a-1433-49b0-99e5-cf031fc5bb31" Panel.Bounds="0,0,100{5,2147483647},100{5,2147483647}" />
+                                        <Icon CatalogId="fa-cutlery" Id="27eaa2ab-a3c8-42c7-af67-2504d37ed118" Panel.Bounds="34,34,32{5,2147483647},32{5,2147483647}" />
+                                        <i:Label RichText="Overwieght" FontFamily="Open Sans" Id="e233793f-539b-46d3-84a0-29133bc8cd68" Panel.Bounds="12,111,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/Create a plan - overwieght.screen" State="c346580f-1041-4ef8-bdb0-852a0b8d3e02" Created="02/17/2018 21:57:15" Id="7476004e-2fdc-4bce-96fc-71833af0d4b6">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="e428b3c1-f806-4ff0-9394-83274ef9c42c" Panel.Bounds="137,197,0*,0*">
+                                    <Group.Children>
+                                        <Ellipse Color="#FF6397C4" Id="7dfa88d7-77fe-49a2-83ec-244ad7c2303f" Panel.Bounds="0,0,100{5,2147483647},100{5,2147483647}" />
+                                        <Icon CatalogId="fa-fire" Id="0f36bc70-2852-45b9-a60e-7f713d22ce66" Panel.Bounds="34,34,32{5,2147483647},32{5,2147483647}" />
+                                        <i:Label RichText="Smoking" FontFamily="Open Sans" Id="f1791914-bf63-494f-a1b9-4b28a4a89b7c" Panel.Bounds="23,111,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/Create a plan - Smoking.screen" State="c346580f-1041-4ef8-bdb0-852a0b8d3e02" Created="02/17/2018 22:18:22" Id="55ca4059-4abe-4cf4-91ff-7a660103e5c9">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="dfc75665-2dda-4bb3-b6a3-2878453f6d97" Panel.Bounds="257,197,0*,0*">
+                                    <Group.Children>
+                                        <Ellipse Color="#FFC6C6C6" Id="f41b922a-810b-414d-b192-89b14e4bddd3" Panel.Bounds="5,0,100{5,2147483647},100{5,2147483647}" />
+                                        <Icon CatalogId="fa-money" Id="a144195c-d4bc-45d9-b99e-71dae4411b51" Panel.Bounds="39,34,32{5,2147483647},32{5,2147483647}" />
+                                        <i:Label RichText="Over-Spending" FontFamily="Open Sans" Id="821175e5-7cd7-406b-b60a-b98d70d13fff" Panel.Bounds="6,111,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="865eaccd-d117-48d4-848f-87e7464a52dd" Panel.Bounds="16,380,0*,0*">
+                                    <Group.Children>
+                                        <Ellipse Color="#FFC6C6C6" Id="3ed4dd5a-5d8a-4edc-a78a-49e2c20aa0d3" Panel.Bounds="0,0,100{5,2147483647},100{5,2147483647}" />
+                                        <Icon CatalogId="fa-moon-o" Id="f349c403-0628-4667-9491-4d9548326b66" Panel.Bounds="34,34,32{5,2147483647},32{5,2147483647}" />
+                                        <i:Label RichText="Staying up late" FontFamily="Open Sans" Id="3f372acb-a8b2-423c-9202-55326e32020e" Panel.Bounds="2,111,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="f55051c2-0057-4246-bd3e-58a21d5b6f79" Panel.Bounds="137,380,0*,0*">
+                                    <Group.Children>
+                                        <Ellipse Color="#FFC6C6C6" Id="96e75065-2a31-4962-ac78-31a219c6263d" Panel.Bounds="0,0,100{5,2147483647},100{5,2147483647}" />
+                                        <Icon CatalogId="Coffee" Id="b18d1cdb-28d2-4b0f-be16-44a4d0033fd7" Panel.Bounds="34,34,32{5,2147483647},32{5,2147483647}" />
+                                        <i:Label RichText="Drinking" FontFamily="Open Sans" Id="102f4e0a-41e5-4572-8284-87aba8138667" Panel.Bounds="23,111,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="13ed102a-3357-4a64-bba0-c12c284f4547" Panel.Bounds="257,380,0*,0*">
+                                    <Group.Children>
+                                        <Ellipse Color="#FFC6C6C6" Id="e557cefb-8d70-4828-b126-ece9abb3a1b5" Panel.Bounds="5,0,100{5,2147483647},100{5,2147483647}" />
+                                        <Icon CatalogId="fa-bed" Id="f964f9e2-024e-4447-9c63-4dc4284f51f1" Panel.Bounds="39,34,32{5,2147483647},32{5,2147483647}" />
+                                        <i:Label RichText="Procrastination" FontFamily="Open Sans" Id="67c139b6-bc69-4b54-a656-28ee425ea17f" Panel.Bounds="6,111,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Tooltip 1.screenpart" Id="4a76fa8f-efe4-4550-baf5-71a76da8a14b" Panel.Bounds="147,93,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:Label RichText="Coming Soon" FontSize="9" FontFamily="Open Sans" Id="8c9419d0-9e96-460d-aabc-ebf58b95b03b" Panel.Bounds="284,331,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:Label RichText="Coming Soon" FontSize="9" FontFamily="Open Sans" Id="67036245-7287-4cdd-9c59-0d3e4c0f90fc" Panel.Bounds="284,512,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:Label RichText="Coming Soon" FontSize="9" FontFamily="Open Sans" Id="f144c89b-297f-4cb4-b2cd-0518eda147d1" Panel.Bounds="159,512,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:Label RichText="Coming Soon" FontSize="9" FontFamily="Open Sans" Id="740ddd5e-96ad-473f-b896-d03c38b91906" Panel.Bounds="38,512,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

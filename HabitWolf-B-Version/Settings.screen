@@ -1,0 +1,172 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.1000.89"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                    xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                    Id="5656c0aa-b486-4b41-87cb-8e792daecbd7">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="e2c649fe-e273-4952-9cda-989c09c608a7">
+            <Content.Layers>
+                <Layer Id="089d4968-456d-4cf1-8488-70fe48b8f63d" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="0800a154-4e98-44bc-8c29-13322eb87a29" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="7c05b912-5247-4be8-bf92-a8dea264aa37" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="e08860b3-8c35-4c62-872d-b980188179b3" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/17/2018 23:11:02" Id="c3ac3776-60fd-4270-a04e-2e3c8eee3ff8">
+            <Scene.KeyFrames>
+                <KeyFrame Id="c42fba4f-304e-40cb-8183-ded6091520f2">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                            <Add.Item>
+                                <i:Header Text="Habit Wolf : Settings" FontSize="16" FontFamily="Open Sans" Id="fa27c9a2-ef3b-4271-b651-a0f111291fc8" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="8a8a40dc-55e3-47ef-8669-834ec0bb6706" Panel.Bounds="5,12,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandBack AnimateLastStateOnScreen="True" Created="02/17/2018 23:11:47" Id="e978fa00-7d1a-4580-b363-9f8a42a67172" />
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="Save Changes" Background="#FF417BAD" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="33b56853-5837-41b9-95e7-d0ed867f9113" Panel.Bounds="8,550,359{25,2147483647},44*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandBack AnimateLastStateOnScreen="True" Created="02/17/2018 23:13:24" Id="d5788f96-5a32-4054-8766-90691f95966e" />
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                            <Add.Item>
+                                <i:Button Text="Cancel changes" FontSize="14" FontFamily="Open Sans" Id="5bfd3d2a-3a42-41f4-8ec3-3e9f5fc9126c" Panel.Bounds="117,602,140{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandBack AnimateLastStateOnScreen="True" Created="02/17/2018 23:13:19" Id="bcfbb190-188f-426a-9984-71cfa2ef149e" />
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="f9aaa8d8-d5ed-4924-a68b-6ec425e0b5e6" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="9aa03f02-6fdc-444c-995f-0d2e472019f1" Panel.Bounds="1,65,0*,0*">
+                                    <Group.Children>
+                                        <i:Title RichText="User Name" FontFamily="Open Sans" Id="db0a0762-9a61-4b99-bde4-a9afbf957a58" Panel.Bounds="13,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <i:Label RichText="John Doe" FontFamily="Open Sans" Id="f9aaa8d8-d5ed-4924-a68b-6ec425e0b5e6" Panel.Bounds="294,2,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Line Thickness="1" Color="#FFC6C6C6" Background="#00FFFFFF" Id="45cf732a-2826-4302-80ba-29911b3afff8" Panel.Bounds="0,40,374{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point Id="7ae4dfde-ea66-4d00-9a8d-3e7349fa5bd2" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="8b205497-6d8d-4820-bf40-a1529fbb2372">
+                                                    <Segment.EndPoint>
+                                                        <Point X="374" Id="3ba629ff-89a4-4fb4-bd21-1933173e4629" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="e2407cfc-f4cf-422a-b263-40406490a354" Panel.Bounds="1,127,0*,0*">
+                                    <Group.Children>
+                                        <i:Title RichText="Brithday" FontFamily="Open Sans" Id="41d53a70-4403-49b7-b711-bf1f42588041" Panel.Bounds="13,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <i:Label RichText="22/7/1988" FontFamily="Open Sans" Id="5869a61d-e9dc-4440-b3b6-77b1b0380ee2" Panel.Bounds="294,2,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Line Thickness="1" Color="#FFC6C6C6" Background="#00FFFFFF" Id="99b81072-a47f-4751-92b3-5e87ba0084ae" Panel.Bounds="0,40,374{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point Id="d0132d63-12e1-4f5b-aaee-0d456363fe14" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="efc0cff0-6794-47c3-90f3-7ef569060d0f">
+                                                    <Segment.EndPoint>
+                                                        <Point X="374" Id="2f0542a8-c620-4884-947d-1260428c04fa" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="297482bf-c882-4482-a6b4-cd81ed462603" Panel.Bounds="1,191,0*,0*">
+                                    <Group.Children>
+                                        <i:Title RichText="Email" FontFamily="Open Sans" Id="9e08187b-2518-4945-956c-e1215bfeddf5" Panel.Bounds="13,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <i:Label RichText="John@doe.com" FontFamily="Open Sans" Id="215e60aa-e16a-447d-95a3-0b1f16025f5e" Panel.Bounds="262,4,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Line Thickness="1" Color="#FFC6C6C6" Background="#00FFFFFF" Id="5f6139fe-d0f3-4f52-9d39-964f8035aae4" Panel.Bounds="0,40,374{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point Id="76c2928d-d65d-4429-8d53-9c6d245eeab7" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="d51cf258-8fc2-4cb8-a68f-babde1f91d59">
+                                                    <Segment.EndPoint>
+                                                        <Point X="374" Id="761d1b17-731f-44b7-9869-ab83bf53edb9" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="66d7f4b3-f5a6-42d9-8fa6-d1403ed404ff" Panel.Bounds="1,254,0*,0*">
+                                    <Group.Children>
+                                        <i:Title RichText="Weight" FontFamily="Open Sans" Id="1cab7571-23ce-4446-84c7-fa0a598797f9" Panel.Bounds="13,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <i:Label RichText="95 Kg" FontFamily="Open Sans" Id="283aaadd-4744-433c-93b4-98ededd39d8b" Panel.Bounds="262,4,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Line Thickness="1" Color="#FFC6C6C6" Background="#00FFFFFF" Id="ba900ea6-7302-441d-b60f-db2263276005" Panel.Bounds="0,40,374{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point Id="a1bf9ed8-5525-4013-a6db-80c13ebfe381" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="e03565bd-a22f-4b17-9260-8cc7751e9cea">
+                                                    <Segment.EndPoint>
+                                                        <Point X="374" Id="52a216dc-7e93-46ec-bca3-7dd20dcb51c6" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <i:Link Text="Change" FontFamily="Open Sans" Id="388b52d4-280c-4a9d-a74f-34951783888e" Panel.Bounds="314,5,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="6408815d-f887-49dd-9eac-51aac137c580" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="e81bd46f-6b0c-4853-90a5-f537adef32be" Panel.Bounds="100,320,0*,0*">
+                                    <Group.Children>
+                                        <Rectangle Id="ed175e49-71c2-49e7-bdca-4b843e224c4d" Panel.Bounds="0,0,175{5,2147483647},175{5,2147483647}" />
+                                        <i:Label RichText="Current Challenge" FontFamily="Open Sans" Id="6408815d-f887-49dd-9eac-51aac137c580" Panel.Bounds="28,13,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Icon CatalogId="fa-cutlery" Id="c6087030-d1bf-44c4-93fa-e90a1ebe3264" Panel.Bounds="50,54,75{5,2147483647},75{5,2147483647}" />
+                                        <i:Button Text="Change Challenge" FontFamily="Open Sans" Id="9a45977b-6265-48f9-b696-660994779a8d" Panel.Bounds="3,143,170{16,2147483647},30{16,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/HomePage.screen" Created="02/23/2018 14:43:30" Id="9a16421b-63f2-45f3-bea3-aff94141e397">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

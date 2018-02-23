@@ -1,0 +1,62 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="10.1.1000.89"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                         xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                         xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                         Id="bdb4e1fd-7634-413f-b1b8-d9702870401e" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="171" Height="106" Background="#00FFFFFF" Id="bc53b319-693c-4f05-9e04-951bd0282f66">
+            <BorderedContent.Layers>
+                <Layer Id="cd63fcdd-0224-4a30-9392-fc68a4e5457e" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="60f71c18-2ef6-4931-8d65-db983091a645" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="16caa9d2-e665-4194-976e-e8bec98de4cb" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="8b873648-819e-4708-9236-f67c24da0c67" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="02/17/2018 21:38:11" Id="e7391efc-3f61-4bcd-a92b-7a254d8ce056">
+            <Scene.KeyFrames>
+                <KeyFrame Id="20f536b1-7003-4ffb-a416-54dbc37930d1">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="cd63fcdd-0224-4a30-9392-fc68a4e5457e">
+                            <Add.Item>
+                                <Icon CatalogId="Info2" Id="5911948f-5864-43d2-a163-bb98ff348017" Panel.Bounds="148,6,20{5,2147483647},20{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="f3b0b432-82ee-4fdf-a3e6-871ef9500242" Created="02/17/2018 21:44:33" Id="5ed57c70-2907-4f70-a55a-15a02d847277" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="fe79c8ad-1106-4e79-805a-3d6c36af5f87" Target="cd63fcdd-0224-4a30-9392-fc68a4e5457e">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="59edd509-014b-4b9d-a4e4-92eab8f18206" Panel.Bounds="6,-74,0*,0*">
+                                    <Group.Children>
+                                        <Rectangle Color="#FFC6C6C6" Background="#FFE2E2E2" Id="d3b77c48-7c92-453b-9a10-8ea7d1fbc9fd" Panel.Bounds="0,0,162{5,2147483647},69{5,2147483647}" />
+                                        <i:Label RichText="&lt;Run FontSize=&quot;10&quot; &gt;Research found that &#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;10&quot; &gt;the more the deeper the reason &#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;10&quot; &gt;that push you the more &#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;10&quot; &gt;commited you shall be&lt;/Run&gt;" FontFamily="Open Sans" Id="fe79c8ad-1106-4e79-805a-3d6c36af5f87" Panel.Bounds="6,8,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Info" StateGroup="e7391efc-3f61-4bcd-a92b-7a254d8ce056" ParentScene="e7391efc-3f61-4bcd-a92b-7a254d8ce056" Created="02/17/2018 21:44:33" Id="f3b0b432-82ee-4fdf-a3e6-871ef9500242">
+            <Scene.KeyFrames>
+                <KeyFrame Id="f8af18cb-504d-4a2d-952b-566b47826eed">
+                    <KeyFrame.Operations>
+                        <Move To="7,30" Target="59edd509-014b-4b9d-a4e4-92eab8f18206" />
+                        <Remove Target="5ed57c70-2907-4f70-a55a-15a02d847277" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>
