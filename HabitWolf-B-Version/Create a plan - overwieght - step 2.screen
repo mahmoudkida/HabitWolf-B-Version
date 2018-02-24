@@ -1,0 +1,160 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.1000.89"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                    xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                    Id="e27ad2a2-9cbe-42b6-ac26-92c505918b42">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="859b4688-7d79-4563-bcbb-841e455dc547">
+            <Content.Layers>
+                <Layer Id="5e5b47bc-2e30-4dde-9270-bc945338d5ab" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="8442e9b5-d521-43c8-a512-96107b2258d8" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="85ae5369-f814-46b3-8e32-bea2d79be459" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="9382dfc8-9f71-4027-8812-ef2c0985d6f2" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/15/2018 00:07:54" Id="c346580f-1041-4ef8-bdb0-852a0b8d3e02">
+            <Scene.KeyFrames>
+                <KeyFrame Id="0af2368c-eef1-472b-84af-a32a6aaa6058">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Header Text="Get rid of : Overweight" FontSize="16" FontFamily="Open Sans" Id="f599c907-d671-405f-b8aa-2b16b0af1a4e" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Rectangle Id="0e703ab8-97d4-4114-a262-e36454cb42b0" Panel.Bounds="13,219,341{5,2147483647},102{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="All is good, let's start our journey" Background="#FF417BAD" Foreground="#FFFFFFFF" FontSize="16" Id="849f82cc-814f-4e57-990b-d98d7da6ca28" Panel.Bounds="8,577,359{25,2147483647},44*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/Create a plan - overwieght - step 3.screen" Created="02/17/2018 23:09:59" Id="8bac3194-6b43-425c-b4ca-583b8919cda4">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="849f82cc-814f-4e57-990b-d98d7da6ca28" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="105" FontFamily="Open Sans" Id="da4bf134-c950-4f49-9260-65032f52f028" Panel.Bounds="313,516,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="da4bf134-c950-4f49-9260-65032f52f028" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="Enter your wieght" FontFamily="Open Sans" Id="9053e052-920e-429d-b8ea-694aefd543cd" Panel.Bounds="28,516,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="9053e052-920e-429d-b8ea-694aefd543cd" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Rectangle Color="#FFAAAAAA" Id="d416bbc9-0b41-4465-92af-1654a4e90203" Panel.Bounds="13,504,343{5,2147483647},43{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="d416bbc9-0b41-4465-92af-1654a4e90203" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="63797ffd-c4eb-405c-987c-80d376e9fee4" Panel.Bounds="5,12,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandBack AnimateLastStateOnScreen="True" Created="02/17/2018 21:57:54" Id="07e52f3f-8a15-4208-b73d-42a4840a0ef8" />
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="63797ffd-c4eb-405c-987c-80d376e9fee4" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:SegmentedToggle Id="224f9d88-d28e-4e58-8409-f9bf59aad564" Panel.Bounds="33,399,297{30,2147483647},5*{5,2147483647}">
+                                    <i:SegmentedToggle.Items>
+                                        <i:SegmentedToggleItem Text="Morning" Id="73e33f74-fc2e-4222-8207-cb1af5650186" />
+                                        <i:SegmentedToggleItem Text="Night" IsSelected="True" Id="daae65c5-5c66-4ff9-a79f-4c5fd3f473a8" />
+                                    </i:SegmentedToggle.Items>
+                                </i:SegmentedToggle>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="224f9d88-d28e-4e58-8409-f9bf59aad564" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="Reminder Settings" FontFamily="Open Sans" Id="ee8cb12f-4e26-4519-af86-a12eae9eff67" Panel.Bounds="33,368,222{5,2147483647},20*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="ee8cb12f-4e26-4519-af86-a12eae9eff67" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Rectangle Id="e2b62221-f484-473d-98e4-af906b006aa5" Panel.Bounds="13,357,341{5,2147483647},90{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="e2b62221-f484-473d-98e4-af906b006aa5" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="&lt;Run FontSize=&quot;9&quot; &gt;3 Challenges/day&lt;/Run&gt;" FontFamily="Open Sans" Id="43df6fe6-3dea-4159-9ade-a685da0d7d16" Panel.Bounds="242,302,83{5,2147483647},15{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="43df6fe6-3dea-4159-9ade-a685da0d7d16" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="&lt;Run FontSize=&quot;10&quot; &gt;2 Challenge/day&lt;/Run&gt;" Foreground="#FF007AFF" FontFamily="Open Sans" Id="f0085092-bab2-4608-a2e5-424b8d7eeed2" Panel.Bounds="139,301,87{5,2147483647},16{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="f0085092-bab2-4608-a2e5-424b8d7eeed2" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="&lt;Run FontSize=&quot;9&quot; &gt;1 Challenge/day&lt;/Run&gt;" FontFamily="Open Sans" Id="17ccdffe-90b8-4d5c-aa91-f1195e265397" Panel.Bounds="45,301,79{5,2147483647},15{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="17ccdffe-90b8-4d5c-aa91-f1195e265397" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:SegmentedToggle Id="b4e4e298-3654-41c0-9c65-1a1b10f7413e" Panel.Bounds="33,262,297{30,2147483647},5*{5,2147483647}">
+                                    <i:SegmentedToggle.Items>
+                                        <i:SegmentedToggleItem Text="Easy" Id="6f941c8f-3f59-4afa-a9b7-a14c115ac132" />
+                                        <i:SegmentedToggleItem Text="Medium" IsSelected="True" Id="48e1d4ab-0bd6-40e9-9669-36704e420ae3" />
+                                        <i:SegmentedToggleItem Text="Hard" Id="aa19857f-589f-44bb-b75f-882d34c3e2e4" />
+                                    </i:SegmentedToggle.Items>
+                                </i:SegmentedToggle>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="b4e4e298-3654-41c0-9c65-1a1b10f7413e" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="Intinsity of the program" FontFamily="Open Sans" Id="ef10ffe7-d001-4f16-9a40-05219f209afb" Panel.Bounds="33,227,179{5,2147483647},23{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:TextField WatermarkText="User Name..." FontFamily="Open Sans" Id="6aac4553-038c-4c57-a026-6f0004454766" Panel.Bounds="154,69,200{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="Your Name" FontFamily="Open Sans" Id="e600745b-3615-4a72-b5bf-e50973cfa2e0" Panel.Bounds="13,74,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:TextField WatermarkText="User Age..." FontFamily="Open Sans" Id="d900f383-1011-4cb0-9e40-b342d641d6f3" Panel.Bounds="154,118,200{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="Your Age" FontFamily="Open Sans" Id="339441da-c4d0-45e0-89ce-e870ec889ec8" Panel.Bounds="13,123,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:TextField WatermarkText="User Email..." FontFamily="Open Sans" Id="795dd9ad-2966-4732-9c8f-f77273bc43da" Panel.Bounds="154,169,200{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="Your Email" FontFamily="Open Sans" Id="ac7f08ea-9576-4541-81b0-7fa749a9d835" Panel.Bounds="13,174,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

@@ -1,0 +1,242 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.1000.89"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                    xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                    Id="e27ad2a2-9cbe-42b6-ac26-92c505918b42">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="859b4688-7d79-4563-bcbb-841e455dc547">
+            <Content.Layers>
+                <Layer Id="5e5b47bc-2e30-4dde-9270-bc945338d5ab" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="8442e9b5-d521-43c8-a512-96107b2258d8" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="85ae5369-f814-46b3-8e32-bea2d79be459" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="9382dfc8-9f71-4027-8812-ef2c0985d6f2" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/15/2018 00:07:54" Id="c346580f-1041-4ef8-bdb0-852a0b8d3e02">
+            <Scene.KeyFrames>
+                <KeyFrame Id="0af2368c-eef1-472b-84af-a32a6aaa6058">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Header Text="Get rid of : Overweight" FontSize="16" FontFamily="Open Sans" Id="f599c907-d671-405f-b8aa-2b16b0af1a4e" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="63797ffd-c4eb-405c-987c-80d376e9fee4" Panel.Bounds="5,12,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandBack AnimateLastStateOnScreen="True" Created="02/17/2018 21:57:54" Id="07e52f3f-8a15-4208-b73d-42a4840a0ef8" />
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontSize=&quot;17&quot; &gt;Tell us what motivated you &#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;14&quot; &gt;to start losing Weight&lt;/Run&gt;" FontFamily="Open Sans" Id="007e23f9-e2d1-45c3-ac00-1bc781707285" Panel.Bounds="16,245,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontSize=&quot;22&quot; &gt;#1&lt;/Run&gt;" FontFamily="Open Sans" Id="1ee1a0fa-babe-495d-86c7-20d37e3ab742" Panel.Bounds="16,297,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Line Thickness="1" Color="#FFAAAAAA" Background="#00FFFFFF" Id="5e984633-a64a-4485-9008-43fb2b10ad41" Panel.Bounds="16,337,343{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point Id="9117f69c-219c-418c-91fc-1c4e2321c5c4" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="7d387f95-13e6-4cd9-ad9a-57b10a9ca329">
+                                            <Segment.EndPoint>
+                                                <Point X="343" Id="8bd5d7c7-c617-4dbf-85a8-0e04bfc6a6ec" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontSize=&quot;22&quot; &gt;#1&lt;/Run&gt;" FontFamily="Open Sans" Id="d18cf07b-132a-4863-aa7a-f3df8a9b4cf1" Panel.Bounds="16,348,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Line Thickness="1" Color="#FFAAAAAA" Background="#00FFFFFF" Id="835c5cd3-e32e-4cbc-ad27-f6d4b75e37b0" Panel.Bounds="16,388,343{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point Id="8594ac41-c854-4644-8478-701e9403b0b8" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="103dde6c-e9a1-4f97-a347-fcc5e8ee8994">
+                                            <Segment.EndPoint>
+                                                <Point X="343" Id="fbe1d2eb-6a95-4fc3-a68e-82f0735a4969" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontSize=&quot;22&quot; &gt;#2&lt;/Run&gt;" FontFamily="Open Sans" Id="0e26131d-30b2-4466-876f-cd2c281fd15d" Panel.Bounds="16,348,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Line Thickness="1" Color="#FFAAAAAA" Background="#00FFFFFF" Id="ace9037b-50f1-4b3e-a292-0ac2812fccd1" Panel.Bounds="16,388,343{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point Id="ac6760b0-4e9a-4f0d-8f5d-541f07acd32b" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="e54c4102-6481-456c-8419-76a46fcdffc8">
+                                            <Segment.EndPoint>
+                                                <Point X="343" Id="15571d66-d308-4a29-a92f-d3ed0ea7127d" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontSize=&quot;22&quot; &gt;#3&lt;/Run&gt;" FontFamily="Open Sans" Id="96ab56fd-5e2b-483f-b71f-873925b16353" Panel.Bounds="16,404,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="Start the journey to change my life!" Background="#FF417BAD" Foreground="#FFFFFFFF" FontSize="16" Id="849f82cc-814f-4e57-990b-d98d7da6ca28" Panel.Bounds="8,577,359{25,2147483647},44*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/Challenges.screen" State="52ca9af9-d870-43fc-94ce-74f3a9943d72" Created="02/17/2018 23:09:59" Id="a23de118-f5c4-45f6-a715-e6c7ed64eb4e">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="849f82cc-814f-4e57-990b-d98d7da6ca28" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Line Thickness="1" Color="#FFAAAAAA" Background="#00FFFFFF" Id="6f1835ad-febe-4759-a065-1ed5e1561ea3" Panel.Bounds="16,444,343{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point Id="2e7d4f7e-f3b0-4a14-8858-1f0e0be8c207" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="60d4703e-c04e-44ab-8ca2-360f8bd97054">
+                                            <Segment.EndPoint>
+                                                <Point X="343" Id="b5232aec-97bb-48a5-9df5-046f9a095280" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="6f1835ad-febe-4759-a065-1ed5e1561ea3" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Line Thickness="1" Color="#FFAAAAAA" Background="#00FFFFFF" Id="ad76ab7b-722a-4fcd-ac53-409a7cf5c42f" Panel.Bounds="16,444,343{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point Id="5131746b-0276-478a-80fb-4207be3b5088" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="2b2a31cc-c702-4214-b3dc-59b5675e95b7">
+                                            <Segment.EndPoint>
+                                                <Point X="343" Id="bb7acb8c-aaf2-42f8-b588-5d6666410d23" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontSize=&quot;22&quot; &gt;#4&lt;/Run&gt;" FontFamily="Open Sans" Id="7d7ecba4-d274-4aa4-adc1-3800cb29dcf8" Panel.Bounds="16,461,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Line Thickness="1" Color="#FFAAAAAA" Background="#00FFFFFF" Id="b08550d9-c931-4e9a-a8ce-d2535a37293a" Panel.Bounds="16,501,343{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point Id="eb86370a-2c87-4066-a788-f21b6e24ae09" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="268af14a-28ef-4a90-9a82-ecc7fd6ae2dd">
+                                            <Segment.EndPoint>
+                                                <Point X="343" Id="1706c405-e501-408c-a702-f31fbadc40f1" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontSize=&quot;22&quot; &gt;#5&lt;/Run&gt;" FontFamily="Open Sans" Id="a5a6cac6-43fc-4d8d-943c-0459b92efef6" Panel.Bounds="16,512,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Line Thickness="1" Color="#FFAAAAAA" Background="#00FFFFFF" Id="e92379cb-d3ad-42eb-b34f-7d1a794efd5c" Panel.Bounds="16,552,343{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point Id="6d8ae6b9-24f7-442d-b852-1f2c241a9801" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="047c58a7-8322-4170-b4d9-c7e1aeec7340">
+                                            <Segment.EndPoint>
+                                                <Point X="343" Id="1ae5066e-9ab9-47b1-a190-da121aa4203f" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Line Thickness="1" Color="#FFAAAAAA" Background="#00FFFFFF" Id="d3a39f12-6dc7-4297-b994-f34f59f0b76e" Panel.Bounds="16,552,343{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point Id="69f11f27-fd64-43e2-a709-ccedb89aeae3" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="356bc648-154f-45e6-bba6-a5f41b22acc5">
+                                            <Segment.EndPoint>
+                                                <Point X="343" Id="f5080101-5024-4687-bffb-9b881e8f39f7" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Tooltip 2.screenpart" Id="aed1e328-60aa-4490-9338-db3449973367" Panel.Bounds="188,245,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="Tell us your story" FontFamily="Open Sans" Id="3a1b361e-7f21-45ee-bee6-34758e912de0" Panel.Bounds="16,57,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:TextArea WatermarkText="Write your story..." FontFamily="Open Sans" Id="7227520f-9690-4f04-9da2-8423d2c9d38f" Panel.Bounds="16,80,343{22,2147483647},128{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Icon CatalogId="fa-microphone" Id="a9994481-348c-49a0-a5f9-74fa6a6fc168" Panel.Bounds="321,168,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

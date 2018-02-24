@@ -56,7 +56,7 @@
                                 </i:Button>
                             </Add.Item>
                         </Add>
-                        <Add Property="Panel.Children" Before="f9aaa8d8-d5ed-4924-a68b-6ec425e0b5e6" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                        <Add Property="Panel.Children" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
                             <Add.Item>
                                 <Group GroupName="Group" Id="9aa03f02-6fdc-444c-995f-0d2e472019f1" Panel.Bounds="1,65,0*,0*">
                                     <Group.Children>
@@ -145,7 +145,7 @@
                                 </Group>
                             </Add.Item>
                         </Add>
-                        <Add Property="Panel.Children" Before="6408815d-f887-49dd-9eac-51aac137c580" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                        <Add Property="Panel.Children" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
                             <Add.Item>
                                 <Group GroupName="Group" Id="e81bd46f-6b0c-4853-90a5-f537adef32be" Panel.Bounds="100,320,0*,0*">
                                     <Group.Children>
@@ -155,15 +155,67 @@
                                         <i:Button Text="Change Challenge" FontFamily="Open Sans" Id="9a45977b-6265-48f9-b696-660994779a8d" Panel.Bounds="3,143,170{16,2147483647},30{16,2147483647}" />
                                     </Group.Children>
                                     <Group.Click>
-                                        <CommandNavigate Screen="/HomePage.screen" Created="02/23/2018 14:43:30" Id="9a16421b-63f2-45f3-bea3-aff94141e397">
-                                            <CommandNavigate.Transition>
-                                                <NavigateTransition Duration="0" />
-                                            </CommandNavigate.Transition>
-                                        </CommandNavigate>
+                                        <CommandSwitchTo SceneId="97c63196-f004-4506-9608-37a2a48310eb" Created="02/24/2018 07:56:48" Id="ea87306d-cb4c-479b-8d1e-b3c5d4f0800c" />
                                     </Group.Click>
                                 </Group>
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="fdb4c4d3-ae99-42cb-89b7-0aa1c3a31d9d" Panel.Bounds="-686,321,0*,0*">
+                                    <Group.Children>
+                                        <Rectangle Id="4e5946e5-7a9f-49c1-8b88-b3fc8bd1d6c3" Panel.Bounds="317,7,301{5,2147483647},190{5,2147483647}" />
+                                        <Label RichText="Warning" Id="e8a24c2c-26a4-4da1-9fa1-5c3812cf0b40" Panel.Bounds="328,18,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Changing your cahllenge will result on &#xD;&#xA;resetting all the current challenge records and &#xD;&#xA;starting all over again.&#xD;&#xA;&#xD;&#xA;Are you sure you want to continue ?" Id="0cd9100f-3b83-48ff-ae42-20766de342bc" Panel.Bounds="328,50,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Line Thickness="1" Background="#00FFFFFF" Id="fd4a9327-37b9-4bb0-b81f-4963339946ad" Panel.Bounds="317,42,297{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point Id="d7a62194-00b9-4c87-9f5d-7dba7824057a" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="36e28582-4ee1-41f7-b005-ae9944890cd9">
+                                                    <Segment.EndPoint>
+                                                        <Point X="297" Id="7a140529-6f70-4691-9971-31d5f98286e3" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Button Text="Yes" Id="fbdd2b78-6ab2-4c7a-956f-f9d4ad331200" Panel.Bounds="328,154,80{5,2147483647},35{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandNavigate Screen="/HomePage.screen" Created="02/24/2018 07:45:58" Id="4d88ddd5-d756-4981-ae3d-598b7ddca878">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Button.Click>
+                                        </Button>
+                                        <Button Text="No" Background="#FF3A9EB8" Foreground="#FFFFFFFF" Id="94f60547-a6cb-49c7-808b-d5824ae03be4" Panel.Bounds="429,154,80{5,2147483647},35{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandSwitchTo SceneId="97c63196-f004-4506-9608-37a2a48310eb" Created="02/24/2018 07:56:26" Id="414ef2df-6d3e-433d-ab2e-124c864df9e6" />
+                                            </Button.Click>
+                                        </Button>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped No" StateGroup="c3ac3776-60fd-4270-a04e-2e3c8eee3ff8" ParentScene="c3ac3776-60fd-4270-a04e-2e3c8eee3ff8" Created="02/24/2018 07:54:21" Id="97c63196-f004-4506-9608-37a2a48310eb">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3864cc20-6d2b-4aec-a71d-a11a160a1bd4">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Before="fdb4c4d3-ae99-42cb-89b7-0aa1c3a31d9d" Target="089d4968-456d-4cf1-8488-70fe48b8f63d">
+                            <Add.Item>
+                                <Rectangle Background="#FFE2E2E2" Opacity="0.6" Id="5bb02080-e822-482d-834c-9ef9f883c6d9" Panel.Bounds="0,44,375{5,2147483647},603{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Control.Click" Target="94f60547-a6cb-49c7-808b-d5824ae03be4">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="c3ac3776-60fd-4270-a04e-2e3c8eee3ff8" Created="02/24/2018 07:54:35" Id="0578eea9-bb67-4567-b744-96e769615b29" />
+                            </Add.Item>
+                        </Add>
+                        <Move To="-266,149" Target="fdb4c4d3-ae99-42cb-89b7-0aa1c3a31d9d" />
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>

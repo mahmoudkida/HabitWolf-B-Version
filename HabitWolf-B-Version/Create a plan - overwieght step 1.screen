@@ -1,0 +1,74 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.1000.89"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                    xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                    Id="e27ad2a2-9cbe-42b6-ac26-92c505918b42">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="859b4688-7d79-4563-bcbb-841e455dc547">
+            <Content.Layers>
+                <Layer Id="5e5b47bc-2e30-4dde-9270-bc945338d5ab" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="8442e9b5-d521-43c8-a512-96107b2258d8" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="85ae5369-f814-46b3-8e32-bea2d79be459" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="9382dfc8-9f71-4027-8812-ef2c0985d6f2" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/15/2018 00:07:54" Id="c346580f-1041-4ef8-bdb0-852a0b8d3e02">
+            <Scene.KeyFrames>
+                <KeyFrame Id="0af2368c-eef1-472b-84af-a32a6aaa6058">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Header Text="Get rid of : Overweight" FontSize="16" FontFamily="Open Sans" Id="f599c907-d671-405f-b8aa-2b16b0af1a4e" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="63797ffd-c4eb-405c-987c-80d376e9fee4" Panel.Bounds="5,12,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandBack AnimateLastStateOnScreen="True" Created="02/17/2018 21:57:54" Id="07e52f3f-8a15-4208-b73d-42a4840a0ef8" />
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="I am in, Let's Start" Background="#FF417BAD" Foreground="#FFFFFFFF" FontSize="16" Id="849f82cc-814f-4e57-990b-d98d7da6ca28" Panel.Bounds="8,577,359{25,2147483647},44*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/Create a plan - overwieght - step 2.screen" Created="02/17/2018 23:09:59" Id="77b6226d-1ada-46a1-ba11-a82cfcc1b786">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Title RichText="You are about to change your life&#xD;&#xA;and get rid of &#xD;&#xA;&#xD;&#xA;&lt;Run FontSize=&quot;24&quot; &gt;Overweight&lt;/Run&gt;" Align="Center" FontFamily="Open Sans" Id="912d4f07-b69a-4c4f-bd1e-b1253940e8fe" Panel.Bounds="46,77,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="See how people who finished&#xD;&#xA;Challenges have to say about it" Align="Center" FontFamily="Open Sans" Id="9ab51ab3-9ac5-4a24-9644-932beab2bc56" Panel.Bounds="85,225,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <VideoPlayer Id="58093293-5cf2-4176-ad20-5d0e7a4123d9" Panel.Bounds="0,292,375{5,2147483647},199{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

@@ -1,0 +1,80 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="10.1.1000.89"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                         xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                         Id="457dffbd-e52b-4801-8d27-e7627862594e" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="333" Height="201" Background="#00FFFFFF" Id="a4df0191-360a-437c-86a1-f0637422474f">
+            <BorderedContent.Layers>
+                <Layer Id="ec69d662-8bfd-4637-97c2-7c5b3a6abdba" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="16edbd3e-95c1-4bb8-bc6e-b93bb98aed80" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="b87d1c66-6faa-4b42-a31f-a4735dbba619" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="c75d19b3-faef-47ec-b0eb-ff43673f65ba" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="02/24/2018 07:42:58" Id="0e71244e-cbac-4fdb-acf3-76a4768910be">
+            <Scene.KeyFrames>
+                <KeyFrame Id="35d8435b-3ddd-4afa-805e-ff557db684aa">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Before="357b3160-53ce-4b87-bb9b-d5b3ed4d51f7" Target="ec69d662-8bfd-4637-97c2-7c5b3a6abdba">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="c37f821f-3270-443e-b971-555e179d5787" Panel.Bounds="-317,-7,0*,0*">
+                                    <Group.Children>
+                                        <Rectangle Id="0d93acdd-2834-4b54-8e2d-fcf87e60d5ca" Panel.Bounds="0,0,301{5,2147483647},190{5,2147483647}" />
+                                        <Label RichText="Warning" Id="357b3160-53ce-4b87-bb9b-d5b3ed4d51f7" Panel.Bounds="11,11,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Changing your cahllenge will result on &#xD;&#xA;resetting all the current challenge records and &#xD;&#xA;starting all over again.&#xD;&#xA;&#xD;&#xA;Are you sure you want to continue ?" Id="a0297cac-f8ff-4a5a-9fc4-99bf02024714" Panel.Bounds="11,43,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Line Thickness="1" Background="#00FFFFFF" Id="56680d3f-94b4-4484-9474-74f3e231e56c" Panel.Bounds="0,35,297{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point Id="45f9845c-318f-4aaa-8a5a-3318bb674c57" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="7170f9d5-0fe3-444c-8780-af216ec7a957">
+                                                    <Segment.EndPoint>
+                                                        <Point X="297" Id="4927b7c9-a41e-4a67-8d9f-62d0eb7a6113" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Button Text="Yes" Id="fb76775c-a6b4-4b5e-ae6d-9a46be624437" Panel.Bounds="11,147,80{5,2147483647},35{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandNavigate Screen="/HomePage.screen" Created="02/24/2018 07:45:58" Id="2b7d0ce9-d685-4814-bf32-6d6c3492b7da">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Button.Click>
+                                        </Button>
+                                        <Button Text="No" Background="#FF3A9EB8" Foreground="#FFFFFFFF" Id="f4db0f2b-1c68-47a2-89fe-b71e4fcb987b" Panel.Bounds="112,147,80{5,2147483647},35{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandSwitchTo SceneId="d1faf905-d03a-47e7-81d7-ce1337385a80" Created="02/24/2018 07:49:48" Id="32a2acc3-7174-4dde-97e1-175165b75928" />
+                                            </Button.Click>
+                                        </Button>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked No" StateGroup="0e71244e-cbac-4fdb-acf3-76a4768910be" ParentScene="0e71244e-cbac-4fdb-acf3-76a4768910be" Created="02/24/2018 07:49:47" Id="d1faf905-d03a-47e7-81d7-ce1337385a80">
+            <Scene.KeyFrames>
+                <KeyFrame Id="8ee14f3d-0bf1-420e-bcc5-e83e776badc1">
+                    <KeyFrame.Operations>
+                        <Set Property="Content.Width" Value="302" Target="a4df0191-360a-437c-86a1-f0637422474f" />
+                        <Set Property="Content.Height" Value="191" Target="a4df0191-360a-437c-86a1-f0637422474f" />
+                        <Remove Target="c37f821f-3270-443e-b971-555e179d5787" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

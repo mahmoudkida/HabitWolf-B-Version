@@ -1,7 +1,7 @@
-﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.0.81"?>
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.1000.89"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                 xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                                 Id="2f808af1-c291-4467-9dcd-ed5ce78b3cfd">
+                                                                                    xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                    Id="2f808af1-c291-4467-9dcd-ed5ce78b3cfd">
     <Page.Content>
         <Content Width="375" Height="647" Id="1eac6411-5a40-413c-8c37-5d0135c8d809">
             <Content.Layers>
@@ -44,7 +44,7 @@
                                 <i:SearchBar WatermarkText="Search by habit..." FontFamily="Open Sans" Id="39906c52-d7f2-4d6c-9819-d27843aacf47" Panel.Bounds="50,128,285{105,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
-                        <Add Property="Panel.Children" Before="27eaa2ab-a3c8-42c7-af67-2504d37ed118" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
                             <Add.Item>
                                 <Group GroupName="Group" Id="3231e3fe-00f1-4ad9-bd25-a92113b1a8fe" Panel.Bounds="16,197,0*,0*">
                                     <Group.Children>
@@ -53,7 +53,7 @@
                                         <i:Label RichText="Overwieght" FontFamily="Open Sans" Id="e233793f-539b-46d3-84a0-29133bc8cd68" Panel.Bounds="12,111,5*{5,2147483647},5*{5,2147483647}" />
                                     </Group.Children>
                                     <Group.Click>
-                                        <CommandNavigate Screen="/Create a plan - overwieght.screen" State="c346580f-1041-4ef8-bdb0-852a0b8d3e02" Created="02/17/2018 21:57:15" Id="7476004e-2fdc-4bce-96fc-71833af0d4b6">
+                                        <CommandNavigate Screen="/Create a plan - overwieght step 1.screen" State="c346580f-1041-4ef8-bdb0-852a0b8d3e02" Created="02/17/2018 21:57:15" Id="7476004e-2fdc-4bce-96fc-71833af0d4b6">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Type="Slide" Duration="300" />
                                             </CommandNavigate.Transition>
@@ -66,17 +66,10 @@
                             <Add.Item>
                                 <Group GroupName="Group" Id="e428b3c1-f806-4ff0-9394-83274ef9c42c" Panel.Bounds="137,197,0*,0*">
                                     <Group.Children>
-                                        <Ellipse Color="#FF6397C4" Id="7dfa88d7-77fe-49a2-83ec-244ad7c2303f" Panel.Bounds="0,0,100{5,2147483647},100{5,2147483647}" />
+                                        <Ellipse Color="#FDC7C8C8" Id="7dfa88d7-77fe-49a2-83ec-244ad7c2303f" Panel.Bounds="0,0,100{5,2147483647},100{5,2147483647}" />
                                         <Icon CatalogId="fa-fire" Id="0f36bc70-2852-45b9-a60e-7f713d22ce66" Panel.Bounds="34,34,32{5,2147483647},32{5,2147483647}" />
                                         <i:Label RichText="Smoking" FontFamily="Open Sans" Id="f1791914-bf63-494f-a1b9-4b28a4a89b7c" Panel.Bounds="23,111,5*{5,2147483647},5*{5,2147483647}" />
                                     </Group.Children>
-                                    <Group.Click>
-                                        <CommandNavigate Screen="/Create a plan - Smoking.screen" State="c346580f-1041-4ef8-bdb0-852a0b8d3e02" Created="02/17/2018 22:18:22" Id="55ca4059-4abe-4cf4-91ff-7a660103e5c9">
-                                            <CommandNavigate.Transition>
-                                                <NavigateTransition Type="Slide" Duration="300" />
-                                            </CommandNavigate.Transition>
-                                        </CommandNavigate>
-                                    </Group.Click>
                                 </Group>
                             </Add.Item>
                         </Add>
@@ -147,6 +140,11 @@
                         <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
                             <Add.Item>
                                 <i:Label RichText="Coming Soon" FontSize="9" FontFamily="Open Sans" Id="740ddd5e-96ad-473f-b896-d03c38b91906" Panel.Bounds="38,512,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:Label RichText="Coming Soon" FontSize="9" FontFamily="Open Sans" Id="de950cc7-2004-4121-ad1f-467f2851fd03" Panel.Bounds="164,331,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
